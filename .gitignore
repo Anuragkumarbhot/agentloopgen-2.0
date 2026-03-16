@@ -1,0 +1,59 @@
+```
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Database
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Local Docker volumes
+data/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Alembic versions (but keep the directory)
+alembic/versions/*.py
+!alembic/versions/__init__.py
+
+# Kubernetes secrets (don't commit real secrets)
+kubernetes/*.yaml
+!kubernetes/*.example.yaml
+```
